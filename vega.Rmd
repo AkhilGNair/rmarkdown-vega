@@ -5,7 +5,9 @@ output: html_document
 
 This page is generated from an `Rmarkdown` file using an example from the [Vega gallery](https://vega.github.io/vega/examples/brushing-scatter-plots/). 
 
-The plotting works out of the box with `r2d3`. As far as I know, any Vega plot can directly be used with no difficulty.
+The plotting works out of the box with `r2d3`. As far as I know, any Vega plot can directly be used with no difficulty, offering more functionality than `hrbrmaster`'s awesome `vegalite` port for `R` ([found here](https://github.com/hrbrmstr/vegalite)).
+
+Check out the source code [here](https://github.com/AkhilNairAmey/rmarkdown-vega).
 
 ```{r setup, include=FALSE, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)

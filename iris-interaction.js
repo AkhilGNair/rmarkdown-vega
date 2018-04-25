@@ -1,5 +1,6 @@
 // r2d3: https://rstudio.github.io/r2d3
 //
+// This code is directly lifted from https://vega.github.io/vega/examples/brushing-scatter-plots/
 
 var spec = {
   "$schema": "https://vega.github.io/schema/vega/v3.json",
